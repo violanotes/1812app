@@ -34,13 +34,13 @@ $(function() {
   //   fireCannon()
   // });
 
-  // $("#button-fire").bind("touchstart", function(e) {
-  //   fireCannon()
-  // });
-
-  $("#button-fire").bind("click", function() {
+  $("#button-fire").bind("touchstart", function(e) {
     fireCannon()
   });
+
+  // $("#button-fire").bind("click", function() {
+  //   fireCannon()
+  // });
 
   window.addEventListener('keydown', function(e) {
     if(e.keyCode == 32 && e.target == document.body) {
