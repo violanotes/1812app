@@ -26,15 +26,19 @@ $(function() {
     saveSettings()
   });
 
-  $("#button-fire").mousedown(function() {
-    fireCannon()
-  });
+  // $("#button-fire").mousedown(function() {
+  //   fireCannon()
+  // });
 
-  $("#button-fire").bind("keydown", function() {
-    fireCannon()
-  });
+  // $("#button-fire").bind("keydown", function() {
+  //   fireCannon()
+  // });
 
-  $("#button-fire").bind("touchstart", function(e) {
+  // $("#button-fire").bind("touchstart", function(e) {
+  //   fireCannon()
+  // });
+
+  $("#button-fire").bind("click", function() {
     fireCannon()
   });
 
