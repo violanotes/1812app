@@ -30,9 +30,13 @@ $(function() {
     fireCannon()
   });
 
-  $("#button-fire").bind("touchstart", function() {
+  $("#button-fire").bind("keydown", function() {
     fireCannon()
-  })
+  });
+
+  $("#button-fire").bind("touchstart", function(e) {
+    fireCannon()
+  });
 
   window.addEventListener('keydown', function(e) {
     if(e.keyCode == 32 && e.target == document.body) {
