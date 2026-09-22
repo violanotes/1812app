@@ -298,7 +298,8 @@ function performUnmute() {
 function detectAudioSupport() {
   setTimeout(function() {
     if (!AUTOPLAY) {
-      showBrowserUnsupported()
+      // 9/21/2026 This is annoying. Removing for now.
+      // showBrowserUnsupported()
     }
   }, 10000)  // give network ten seconds
 }
