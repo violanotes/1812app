@@ -46,6 +46,7 @@ $(function() {
     if(e.keyCode == 32 && e.target == document.body) {
       e.preventDefault();
     }
+    fireCannon();
   });
 
   $("#icon-main-volume").click(function() {
