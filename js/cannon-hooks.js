@@ -26,9 +26,9 @@ $(function() {
     saveSettings()
   });
 
-  // $("#button-fire").mousedown(function() {
-  //   fireCannon()
-  // });
+  $("#button-fire").mousedown(function() {
+    fireCannon()
+  });
 
   // $("#button-fire").bind("keydown", function() {
   //   fireCannon()
